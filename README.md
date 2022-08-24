@@ -1,4 +1,7 @@
 # image_processing
+Target:
+Channel0.tif defines feature locations. Based on feature locations in step1 to extra feature signal in Channel1.tif 
+
 Given info:
 1. Given threshold (35000)
 2. Two images have no shift

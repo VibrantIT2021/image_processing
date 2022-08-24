@@ -14,9 +14,6 @@ Requirements:
  
 Result table example:
 
-Feature signal     X_Axis        Y_Axis
-    36666            100          200
-    36896            130          210
 
 | Feature signal  | X_Axis |  Y_Axis |
 | ------------- | ------------- | -------------|

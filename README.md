@@ -1,11 +1,11 @@
 # image_processing
 Target:
-We have two images,both images with the same image size. One is Channel0.tif where we can get the feature(ROI) coordiates and ROI size from it, and then using these ROI infomation to extra feature(ROI) signal from Channel1.tif which range from 0 to 65535. 
+We have two images, both images with the same image size. One is Channel0.tif where we can get the feature(ROI) coordinates and ROI size from it, and then use this ROI information to extract the feature(ROI) signal from Channel1.tif which ranges from 0 to 65535. 
 
 Given info:
-1. You may assume all features with the same size and same distance between each other. 
+1. You may assume all features with the same size and the same distance between each other. 
 2. Given the threshold (35000), we can use this threshold to filter interested pixels.
-3. Two images have no shift, and have the same image size.
+3. Two images have no shift.
 4. Please use Python and OpenCV (kindly remind: if you can not process 16bit images directly, for Channel0.tif you can compress it to 8bit first, then get useful ROI information and use this information to extract the ROI signal after that.)
 5. Images may contain noise, please filter all these noise.
 ![image_processing](https://github.com/VibrantIT2021/image_processing/blob/main/noise.jpg)
